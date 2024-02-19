@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Situp Counter</title>
+<link rel="stylesheet" type="text/css" href="situps.css">
+<link rel="shortcut icon" href="../images/situps.png">
+</head>
+<body>
+    <div class="snowflakes">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+        <img src="../images/snowflakes.png" width="5%">
+    </div>
+<h2>Situp Counter Player 1</h2>
+<p>Click the A key to count your squats:</p>
+<div id="counter1",onkeypress="upOne">0</div>
+<br>
+<button id="resetButton", onclick="reset()">Reset Score</button>
+
+<h2>Situp Counter Player 2</h2>
+<p>Click the L key to count your squats:</p>
+<div id="counter2",onkeypress="upOneP2">0</div>
+<br>
+<button id="resetButton", onclick="reset2()">Reset Score</button>
+<br>
+<br>
+<button id="start" onclick="start()">Start the Game!</button>
+<br>
+<br>
+<div id="counter">1:00</div>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/pCX65Mtc_Kk" title="How To Do a Sit Up Correctly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+<br>
+<br>
+<a href="../index.html"><button>Back to home</button></a>
+<script src="situps.js"></script>
+
+
+
+</body>
+</html>
